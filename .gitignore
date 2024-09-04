@@ -6,3 +6,5 @@ build
 yarn.lock
 pnpm-lock.yaml
 package-lock.json
+
+.DS_Store
