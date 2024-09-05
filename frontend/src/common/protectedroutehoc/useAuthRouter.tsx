@@ -11,7 +11,7 @@ function AuthRoute<T>(Component: any) {
     useEffect(() => {
       if (useAuthStore.getState().user?.email) {
       } else {
-        router.push("/auth/login");
+        router.push("/signin");
       }
     }, []);
 
